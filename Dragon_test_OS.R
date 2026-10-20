@@ -18,3 +18,7 @@ usethis::git_default_branch_configure(name = "main")
 
 #
 print("Hi")
+
+# import data
+# I import a new csv dataset
+data <- read.csv(paste0(data_path, "/data.csv"))
